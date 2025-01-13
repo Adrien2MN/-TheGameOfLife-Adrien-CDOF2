@@ -18,7 +18,7 @@ def print_grid(grid):
             if cell == 0:
                 print(" ", end="")
             else:
-                print("X", end="")
+                print("◼︎", end="")
         print()
 
 def count_neighbours(grid, x, y):
