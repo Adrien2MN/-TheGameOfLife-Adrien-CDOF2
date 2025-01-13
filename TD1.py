@@ -55,7 +55,7 @@ def main():
     size = 20
     grid = create_grid(size)
     while True:
-        os.system("clear")
+        os.system("cls")
         print_grid(grid)
         grid = next_generation(grid)
         time.sleep(0.5)
