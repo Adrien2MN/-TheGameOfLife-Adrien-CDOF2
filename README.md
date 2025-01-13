@@ -100,4 +100,4 @@ We welcome contributions to this project! To contribute, please follow these ste
 8. **Wait for review:**
     - Your pull request will be reviewed, and you may be asked to make additional changes.
 
-Thank you for contributing!
+Thank you for reading and contributing in any way !
