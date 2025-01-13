@@ -16,9 +16,9 @@ def print_grid(grid):
     for row in grid:
         for cell in row:
             if cell == 0:
-                print(" ", end="")
+                print("   ", end="")
             else:
-                print("◼︎", end="")
+                print(" ◼︎ ", end="")
         print()
 
 def count_neighbours(grid, x, y):
@@ -52,7 +52,7 @@ def next_generation(grid):
     return new_grid
 
 def main():
-    size = 20
+    size = 30
     grid = create_grid(size)
     while True:
         os.system("cls")
